@@ -1,0 +1,96 @@
+*{
+    text-transform: capitalize;
+}
+a{
+    color: black;
+}
+.content{
+    background-color: #eee;
+    display: grid;
+    grid-template-areas: "left left left mid mid mid mid mid mid right right right";
+}
+.leftside{
+   
+   margin-left: 40px;
+   grid-area: left;
+   margin-top: 30px;
+   
+}
+#me{
+    width: 90px;
+    height: 90px;
+    border-radius:50% ;
+    position:relative ;
+   left: 25%;
+   top:-40px ;
+}
+#back{
+    width: 200px;
+}
+.aboutme img{
+    width: 17px;
+    height: 17px;
+}
+#name{
+    margin-top: -20px;
+    margin-left: 47px;
+}
+#work{
+    margin-left: 36px;
+    font-size: smaller;
+}
+#work{
+    
+    font-size: smaller;
+}
+.logo{
+    width: 200px;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.aboutme{
+    background-color: white;
+    border-radius: 8px;
+    width: 200px;
+    height: 350px;
+  
+}
+.aboutme div{
+    width: fit-content;
+    padding: 20px;
+    font-size: 13px;
+}
+.aboutme span{
+    margin-left: 28px;
+    color: blue;
+}
+.aboutme img{
+    width: 14px;
+    height: 14px;
+    margin-left: -10px;
+    margin-right: 13px;
+}
+#gr{
+    margin-left:60px ;
+}
+.more button{
+    width: 200px;
+    margin-left:-20px ;
+    height: 50px;
+    border-left:none ;
+    border-right:none ;
+    border-bottom:none ;
+    background-color: white;
+    border-radius: 8px;
+}
+.more :hover{
+    background-color: #c8c3c3;
+}
+.rightside{
+    grid-area: right;
+}
+.rightside img{
+    width: 10px;
+    height: 10px;
+}
